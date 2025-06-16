@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polyintegral</title>
+    <link rel="stylesheet" href="../polyintegral/style.css">
+    <script src="https://kit.fontawesome.com/96dcb489df.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- section acceuil -->
+     <section id="container">
+      <header>
+        <div class="logo">
+          <a href="#"><img src="images/polylogo.png" alt=""></a>  
+        </div>
+
+        <!-- menu responsive -->
+        <div class="menu-toggle"></div>
+
+        <ul class="menu">
+            <li><a href="#container">Home</a></li>
+            <li><a href="#a-propos">About</a></li>
+            <li><a href="#gallerie">Sponsors</a></li>
+            <li><a href="#contact">contact</a></li>
+        </ul>
+      </header>
+      <div class="container-text">
+          <h1>Integral , Challenge Zone</h1>
+          <p>Unlock the power of integral mathematics. Compete, challenge, excel.</p>
+          <a href="../polyintegral/form.html">Take Part</a>
+      </div>
+    </section> 
+
+    <!-- section a propos -->
+     <section id="a-propos">
+        <div>
+            <p class="tittle-section">ABOUT US</p>
+            <h1 class="sub-tittle-section">What Is Polyintegral </h1>
+            <div class="description-photo">
+                    <div class="desc">
+                        <p>Polyintegral is a competition organized by Polytechnical Innovation Club, where candidates compete to solve the highest number of integrals of various degrees of difficulty in order to reward those who will achieve the title.</p>
+
+                        <H2>THE COMPETITION JURORS</H2>
+                        <div class="list-services">
+                            <div class="service">   
+                                <i class="elaziri">
+                                <img src="images/elaziri.jpg" alt=""></i>
+                                <p>MR.SENOUCI</p>
+                            </div>
+                            <div class="service">
+                                <i class="madani">
+                                <img src="images/madani.jpg" alt=""></i>
+                                <p>MS.MADANI</p>
+                            </div>
+                            <div class="service">
+                                <i class="messirdi"><img src="images/messirdi.jpg" alt=""></i>
+                                <p>MR.MSSIRDI</p>
+                            </div>
+                        </div>
+                </div>
+                <img src="images/image-descr.png" alt="">
+            </div>
+        </div>
+    </section> 
+
+    <!-- section gallerie destination -->
+    <section id="gallerie">
+            <p class="tittle-section">SPONSORS</p>
+            <h1 class="sub-tittle-section">Our Sponsors </h1>
+            <div class="liste-photos">
+                <div class="gallerie-img">
+                    <img src="images/ya pub service.jpg" alt="">
+                    <div class="show-country"><p>Ya pub service</p></div>
+                </div>
+                <div class="gallerie-img">
+                    <img src="images/Oran travellers.jpg" alt="">
+                    <div class="show-country"><p>Oran travellers</p></div>
+                </div>
+                <div class="gallerie-img">
+                    <img src="images/ecole rostom.jpg" alt="">
+                    <div class="show-country"><p>Ecole rostom</p></div>
+                </div>
+                <div class="gallerie-img">
+                    <img src="images/informatique bureatique.jpg" alt="">
+                    <div class="show-country"><p>Informatique</p></div>
+                </div>
+                <div class="gallerie-img">
+                    <img src="images/informed Oran.jpg" alt="">
+                    <div class="show-country"><p>Informed Oran</p></div>
+                </div>
+                <div class="gallerie-img">
+                    <img src="images/soon.jpg" alt="">
+                    <div class="show-country"><p>SOON</p></div>
+                </div>
+
+            </div>
+    </section> 
+
+<!--  section contact -->
+    <section id="contact">
+        <p class="contact_titlesec">CONTACT</p>
+        <h1 class="sub-tittle-section">Contact Form</h1>
+        <div>
+            <form action="../polyintegral/contact.php" method="post">
+                <label>Adresse Mail</label>
+                <input name="email" type="text" placeholder="Ex: polytechnicalinnovayionclub@gmail.com">
+                <label>Message</label>
+                <textarea name="messager" id="" cols="30" rows="10" placeholder="Your message..."></textarea>
+                <input type="submit" value="SEND">
+            </form>
+            <div class="sociale">
+                <ul>
+                    <li><a href="https://web.facebook.com/polytechnical.innovation.club?locale=fr_FR"><i class="facebook"><img src="images/facebook.png" alt=""></i></a></li>
+                    <li><a href="https://www.instagram.com/polytechnical_innovation_club?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="instagram"><img src="images/instagram.png" alt=""></i></a></li>
+                    <li><a href="#"><i class="youtube"><img src="images/logos.png" alt=""></i></a></li>
+                    <li><a href="http://picenp.rf.gd/?i=1"><i class="siteweb"><img src="images/icon.png" alt=""></i></a></li>
+                </ul>
+            </div>
+            <div class="images-contact">
+                <img src="images/image-contact.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <p>Copyright&copy; Fares KOUIDER DJELLOUL.PIC_club.2024</p>
+    </footer>
+
+<script>
+    var menu_toggle = document.querySelector('header .menu-toggle');
+    var menu = document.querySelector('header .menu');
+    menu_toggle.onclick = function(){
+        menu_toggle.classList.toggle('active') ; 
+        menu.classList.toggle('responsive') ; 
+    }
+</script>
+
+</body>
+</html>

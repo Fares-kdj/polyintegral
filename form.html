@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Competition Registration</title>
+    <link rel="stylesheet" href="formcss.css">
+</head>
+<body>
+    <div class="logo">
+        <img src="images2/polylogo.png" alt="Polylogo">
+    </div>
+    <div class="box">
+        <span class="borderline"></span>
+        <form action="../polyintegral/inscrit.php" method="POST">
+            <h2>Competition Registration</h2>
+            <div class="inputBox">
+                <input type="text" required="required" name="firstname">
+                <span>First Name</span>
+                <i></i>
+            </div>
+            <div class="inputBox">
+                <input type="text" required="required" name="lastname">
+                <span>Last Name</span>
+                <i></i>
+            </div>
+            <div class="inputBox">
+                <input type="text" required="required" name="specialization">
+                <span>Specialization</span>
+                <i></i>
+            </div>
+            <div class="inputBox">
+                <input type="email" required="required" name="email">
+                <span>Email Address</span>
+                <i></i>
+            </div>
+            <div class="inputBox">
+                <input type="tel" required="required" name="phone">
+                <span>Phone Number</span>
+                <i></i>
+            </div>
+            <input type="submit" value="Register">
+        </form>
+    </div>
+</body>
+</html>
