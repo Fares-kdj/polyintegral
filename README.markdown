@@ -22,12 +22,11 @@ Follow these steps to set up the project locally:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/[your-username]/polyintegral-competition.git
+   git clone https://github.com/Fares-kdj/polyintegral.git
    ```
 
 2. **Set Up the Environment**:
-   - Ensure **PHP** and a web server (e.g., Apache) are installed.
-   - Configure the database connection in `includes/db.php`.
+   - Ensure **PHP** and a web server Apache are installed.
 
 3. **Install Dependencies**:
    - If using Composer, run:
@@ -35,12 +34,9 @@ Follow these steps to set up the project locally:
      composer install
      ```
 
-4. **Database Setup**:
-   - Import the database schema from `database/portfolio_db` into your MySQL database.
-
 5. **Run the Application**:
    - Start your web server and navigate to the project directory.
-   - Access the site via `http://localhost/polyintegral-competition`.
+   - Access the site via `http://localhost/polyintegral`.
 
 ## 🖱️ Usage
 - **Jury Presentation**: Explore detailed profiles of jury members on the dedicated page. 👥
@@ -51,20 +47,14 @@ Follow these steps to set up the project locally:
 
 ## 📂 Folder Structure
 ```plaintext
-├── css/                # 🎨 CSS stylesheets for the website
-├── fontawesome/        # 🖌️ Font Awesome icons and resources
-├── img/                # 🖼️ Images used in the website
-├── js/                 # 💻 JavaScript files for interactivity
-├── slick/              # 📷 Slider or carousel resources
-├── vendor/             # 📦 Third-party libraries and dependencies
-├── ABOUT THIS TEMPLATE # 📖 Information about the template (text document)
-├── composer.lock       # 🔗 Composer dependency lock file
-├── delete_form.php     # ❌ PHP script to delete forms (if applicable)
-├── fares.pdf           # 📑 Sample PDF document
-├── generate_pdf.php    # 📄 PHP script to generate PDFs (if applicable)
-├── index.php           # 🏠 Main entry point of the website
-├── index_form.php      # 📝 PHP script for form handling
-├── search_invoice.php  # 🔍 PHP script to search invoices (if applicable)
+├── contact.php         # 📞 PHP file for contact functionality
+├── form/               # 📝 Folder containing form-related files
+├── formcss             # 🎨 CSS file for form styling
+├── index               # 🏠 Main HTML file for the homepage
+├── inscrit             # 📋 PHP file for registration functionality
+├── style               # 🎨 Main CSS file for website styling
+├── images/             # 🖼️ Folder for website images
+├── images2/            # 🖼️ Additional folder for extra images
 └── README.md           # 📖 Project documentation
 ```
 
